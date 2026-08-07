@@ -1,0 +1,11 @@
+# My Bio
+print("==== ABOUT ME ===")
+print("My name is Atseh Zenubia Mbu.")
+print("I am a Computer Engineering Student.")
+print("I am passionate about learning Python programming.")
+print("")
+print("I am currently improving my coding skills everyday.")
+print("My goal is to become a skilled software developer.")
+print("Hobbies:\tReading, Learning and Solving problems.")
+print("I love Software Engineering because it combines creativity, logic and innovation. \nI want to be a builder not just a user.")
+print("Thank you for reading my bio!")

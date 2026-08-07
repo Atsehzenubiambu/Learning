@@ -1,0 +1,11 @@
+name=input("Enter your name:")
+animal=input("Enter an animal:")
+city=input("Enter a City:")
+adjective=input("Enter an adjective")
+
+print("\n=== My Mad Libs Story ====")
+print("One day",name,"visited",city + ".")
+print("There",name,"met a",adjective,animal + ".")
+print("The",animal,"started dancing in the middle of the road.")
+print("Everyone in",city,"laughed and clapped.")
+print(name, "said, 'This is the funniest day of my life!'")
