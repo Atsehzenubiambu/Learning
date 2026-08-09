@@ -14,3 +14,10 @@ print(15==15)
 print(15!=10)
 print(15>=15)
 print(15<=10)
+
+# Task 3: Type Conversion
+number = "25"
+number = int(number)
+
+print(number + 5)
+print(type(number))
