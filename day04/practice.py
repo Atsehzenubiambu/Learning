@@ -7,3 +7,7 @@ print(sentence[7:])
 item="bread"
 price=500
 print(f"Item:{item} | Price:{price}")
+
+#Task 3: Reverse a String
+word="Python"
+print(word[::-1])
