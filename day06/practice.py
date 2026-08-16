@@ -10,3 +10,10 @@ number = 1
 while number <= 20:
     print(number)
     number+=1
+
+# Task 2: Multiples of 3
+for number in range (1, 101):
+    if number % 3 != 0:
+        continue
+    print(number)
+
