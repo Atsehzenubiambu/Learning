@@ -19,3 +19,8 @@ elif score >= 50:
     print("D")
 else:
     print("F")
+
+# Task 3: Even or Odd with a Ternary
+number = int(input("Enter a number:"))
+result = "Even" if number % 2 == 0 else "odd"
+print(result)
