@@ -1,4 +1,4 @@
-# Day 3 Quiz
+# Day 5 Quiz
 ## 1. What is the difference between elif and a new if?
 Answer: In "elif", Python checks the conditions as one chain and stops once it is true. while in "if" Python checks both conditions.
 ## 2. Which values are "falsy" in Python? Name at least 4.
