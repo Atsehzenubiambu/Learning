@@ -27,7 +27,15 @@ for item in questions:
         print("Correct!")
         score += 1
     else:
-        print("Wrong!")
+        print("Wrong! You have one more chance.")
+
+        retry = input("Try again: ")
+
+        if retry.lower() == item["answer"].lower():
+            print("Correct on your second try!")
+            score += 1
+        else:
+            print("Wrong again!")
 
 print(f"\nYour final score is {score}/5.")
 
@@ -37,4 +45,3 @@ elif score >= 3:
     print("Good job!")
 else:
     print("Keep practicing!")
-    
