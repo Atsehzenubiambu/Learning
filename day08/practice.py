@@ -12,3 +12,8 @@ numbers.sort()
 numbers.sort(reverse=True)
 
 print(numbers)
+
+# Task 3: Every Second Element
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+print("Every second element", numbers[::2])
