@@ -6,14 +6,14 @@ print("x:", x)
 print("y:", y)
 
 # Task 2: Set of numbers
-A = {1, 2, 3}
-B = {3, 4, 5}
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
 # Union
-print(A|B)
+print("Union:", set1 | set2)
 # Intersection
-print(A&B)
+print("Intersection:", set1 & set2)
 # Difference
-print(A-B)
+print("Difference", set1- set2)
 
 # Task 3: Convert a list with duplicates
 numbers = [1, 2, 2, 3, 3, 4]
