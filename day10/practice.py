@@ -8,4 +8,12 @@ students = {
 
 for name, grade in students.items():
     print(name, grade)
-    
+
+
+# Task 2: get() with default value
+student = {
+    "name": "Zennie",
+    "age": 22
+}
+
+print(student.get("grade", "Grade not found"))
